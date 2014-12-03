@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ridho.wtcbatangharihealthcare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TheBodyShopActivity"
+            android:label="@string/title_activity_the_body_shop" >
+        </activity>
+        <activity
+            android:name=".BostonActivity"
+            android:label="@string/title_activity_boston" >
+        </activity>
+        <activity
+            android:name=".CenturyActivity"
+            android:label="@string/title_activity_century" >
+        </activity>
+        <activity
+            android:name=".BostonnActivity"
+            android:label="@string/title_activity_bostonn" >
+        </activity>
+        <activity
+            android:name=".CenturyyActivity"
+            android:label="@string/title_activity_centuryy" >
+        </activity>
+    </application>
+
+</manifest>

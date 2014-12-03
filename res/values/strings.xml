@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTC Batanghari Healthcare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_the_body_shop">The Body Shop</string>
+    <string name="title_activity_boston">BostonActivity</string>
+    <string name="title_activity_century">CenturyActivity</string>
+    <string name="title_activity_bostonn">Boston Health and Beauty</string>
+    <string name="title_activity_centuryy">Century Healthcare</string>
+
+</resources>

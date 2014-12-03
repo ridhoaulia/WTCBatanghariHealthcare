@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ridho.wtcbatangharihealthcare.CenturyyActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Century Healthcare\n"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/incent1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n Tentang Century Healthcare \n\n
+Century Healthcare didirikan pada tahun 1993 oleh Drs. Eddie Lembong
+dan merupakan salah satu ritel farmasi yang bergerak dibidang penyediaan 
+produk-produk kesehatan, terutama obat-obatan,baik yang racikan maupun 
+obat yang dijual bebas, yang lebih cenderung mengarah pada market menengah 
+keatas dengan penempatan outlet di beberapa pusat perbelanjaan, perkantoran, dan perumahan.
+Century Healthcare juga memiliki layanan delivery service untuk melayani pelanggannya. 
+Century Healthcare saat ini memiliki 250.000 anggota setia dan 500.000 calon anggota yang potensial.
+\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/incent2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nLokasi Century Healthcare berada di lantai dasar WTC Batanghari di seberang Blackberry Shop" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

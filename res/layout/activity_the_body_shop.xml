@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ridho.wtcbatangharihealthcare.TheBodyShopActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Body Shop\n" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/inbs0" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n Tentang The Body Shop \n\n
+The Body Shop International plc, atau lebih dikenal dengan The Body Shop, didirikan oleh Dame Anita Roddick yang sekarang telah memiliki sekitar 2,400 toko di 61 negara. Menurut O Boticario, sebuah perusahaan dari Brazil, The Body Shop adalah perusahaan franchise kosmetika kedua terbesar di dunia.
+Perusahaan ini, berpusat di Littlehampton, Sussex Barat, Inggris.
+\n\n
+Varian Produk \n\n
+The Body Shop terkenal oleh produk-produknya yang menggunakan zat herbal mulai dari Body Butter, Peppermint Foot Lotion, dan Hemp.
+\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/inbs4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nLokasi The Body Shop berada di lantai dasar WTC Batanghari di depan jaco fitness" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
